@@ -1,0 +1,43 @@
+{
+  "dna": "388d6e175b56b1e307e817385f1da8fc0a51b2c5",
+  "name": "#44",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/44.png",
+  "edition": 44,
+  "date": 1632830214534,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Aquamarine"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Cricket Sweater"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "ETH Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Boxing Headguard"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Gold Golf Club"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

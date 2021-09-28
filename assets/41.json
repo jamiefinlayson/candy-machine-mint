@@ -1,0 +1,43 @@
+{
+  "dna": "c13966b0a67e24f4c8dd5078ad544bd88686ffa3",
+  "name": "#41",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/41.png",
+  "edition": 41,
+  "date": 1632830212294,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Football Jersey"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Diamond ETH Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Football Helmet"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Soccer Ball"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

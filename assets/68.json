@@ -1,0 +1,43 @@
+{
+  "dna": "ca8bcbf9c838c8d0f0aa8b973c94f687c8c392d2",
+  "name": "#68",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/68.png",
+  "edition": 68,
+  "date": 1632830233131,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Golf Polo"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Dollar Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Racing Helmet"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Racing Wheel"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

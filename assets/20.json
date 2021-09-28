@@ -1,0 +1,43 @@
+{
+  "dna": "326127b3c44e8a43b452521553b346a24b696a33",
+  "name": "#20",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/20.png",
+  "edition": 20,
+  "date": 1632830195266,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Cricket Sweater"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Missing"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Missing Teeth"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Boxing Headguard"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Cricket Bat"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

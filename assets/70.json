@@ -1,0 +1,43 @@
+{
+  "dna": "10aab8ec3d06f6d099cc365b093c0fb557f9bf99",
+  "name": "#70",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/70.png",
+  "edition": 70,
+  "date": 1632830234644,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Gray"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Tiger"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Golf Polo"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "SOL Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Braces"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Golf Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Golf Club"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

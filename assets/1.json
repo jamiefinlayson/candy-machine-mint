@@ -1,0 +1,51 @@
+{
+  "dna": "2935c2d04fcb75f7f20af6ee40277d0e88f1847e",
+  "name": "#1",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/1.png",
+  "edition": 1,
+  "date": 1632830179803,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Referee"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "ETH Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Golf Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Boxing Glove"
+    }
+  ],
+  "properties": [
+    {
+      "creators": [
+        "Jamie Finlayson",
+        "James Finlayson"
+      ]
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

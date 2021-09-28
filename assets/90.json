@@ -1,0 +1,43 @@
+{
+  "dna": "114ca8905994e42b8f29a2059deee53737d46cc3",
+  "name": "#90",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/90.png",
+  "edition": 90,
+  "date": 1632830250200,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue Stoned"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Rugby Top"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "SOL Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Just Bald"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Baseball Bat"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

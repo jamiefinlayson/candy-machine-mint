@@ -1,0 +1,43 @@
+{
+  "dna": "c1456864c1a48dac8d75ee6e80af4f012c416921",
+  "name": "#84",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/84.png",
+  "edition": 84,
+  "date": 1632830245643,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Gray"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Golf Polo"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Diamond BTC Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Golf Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Basketball"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

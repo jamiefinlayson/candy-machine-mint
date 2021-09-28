@@ -1,0 +1,43 @@
+{
+  "dna": "2d6139c3e4316f7710acd4a53ce61314fb1d3e82",
+  "name": "#80",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/80.png",
+  "edition": 80,
+  "date": 1632830242562,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Ice Hockey Jersey"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Missing"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Gold Cricket Helmet"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Gold Cricket Bat"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

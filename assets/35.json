@@ -1,0 +1,43 @@
+{
+  "dna": "e0f75caf1e4fe1a583b3806df7185326b7403808",
+  "name": "#35",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/35.png",
+  "edition": 35,
+  "date": 1632830207677,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pink Stoned"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Topless"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Diamond SOL Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Rainbow Braces"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Gold Basketball"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,0 +1,43 @@
+{
+  "dna": "ed9d5340808130db5ff8ee20fab986b3ba48312a",
+  "name": "#43",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/43.png",
+  "edition": 43,
+  "date": 1632830213790,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Ice Hockey Jersey"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Dollar Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Gold Basketball Headband"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Golf Club"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

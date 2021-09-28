@@ -1,0 +1,43 @@
+{
+  "dna": "977c9541c6d5149f883bc0a9fe323bfa892c6a43",
+  "name": "#79",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/79.png",
+  "edition": 79,
+  "date": 1632830241762,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Aquamarine"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Light Pink"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pink Stoned"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Soccer Jersey"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Missing"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Gold Racing Wheel"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
