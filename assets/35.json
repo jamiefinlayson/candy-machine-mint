@@ -39,5 +39,13 @@
       "value": "Gold Basketball"
     }
   ],
+"properties": [
+  {
+    "creators": [
+      "Jamie Finlayson",
+      "James Finlayson"
+    ]
+  }
+],
   "compiler": "HashLips Art Engine"
 }

@@ -39,5 +39,13 @@
       "value": "Tennis Racket"
     }
   ],
+"properties": [
+  {
+    "creators": [
+      "Jamie Finlayson",
+      "James Finlayson"
+    ]
+  }
+],
   "compiler": "HashLips Art Engine"
 }
