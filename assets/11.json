@@ -39,13 +39,11 @@
       "value": "Golf Club"
     }
   ],
-"properties": [
-  {
+"properties": {
     "creators": [
-      "Jamie Finlayson",
-      "James Finlayson"
+      "39ZP1kcwPEfWHn1nSZVhsym5QYbcBKV4ozUPQFkyFtix",
+      "39ZP1kcwPEfWHn1nSZVhsym5QYbcBKV4ozUPQFkyFtix"
     ]
-  }
-],
+  },
   "compiler": "HashLips Art Engine"
 }

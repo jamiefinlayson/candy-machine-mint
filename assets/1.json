@@ -39,14 +39,12 @@
       "value": "Boxing Glove"
     }
   ],
-  "properties": [
-    {
-      "creators": [
-        "Jamie Finlayson",
-        "James Finlayson"
-      ]
-    }
-  ],
+  "properties": {
+    "creators": [
+      "39ZP1kcwPEfWHn1nSZVhsym5QYbcBKV4ozUPQFkyFtix",
+      "39ZP1kcwPEfWHn1nSZVhsym5QYbcBKV4ozUPQFkyFtix"
+    ]
+  }, 
   "compiler": "HashLips Art Engine"
 }
 
