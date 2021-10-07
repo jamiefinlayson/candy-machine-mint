@@ -1,8 +1,8 @@
 {
-  "dna": "2935c2d04fcb75f7f20af6ee40277d0e88f1847e",
   "name": "#1",
-  "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/1.png",
+  "symbol": "ASC",
+"description": "Alien Sports Club",  
+"image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/1.png",
   "edition": 1,
   "date": 1632830179803,
   "attributes": [
@@ -39,14 +39,23 @@
       "value": "Boxing Glove"
     }
   ],
-  "properties": {
-    "creators": [
-      "5tL3AA91cXKDqF2AEDtj5EEZZ7asoQM8s7f6sj9UD32dQvyisK4M2MzCKy8",
-      "985upsetFwzuJnASY2EwFJMppxoznSdsg3aBoZ2f11MswZqbvmjiuM4mFnU" 
+  "collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
+ },
+"properties": {
+"creators": [
+      { 
+        "address": "FaM3xBSsXY8tTT3BEZhAsxUQ8Tn7svcawWGkVdBfDJuH",
+        "share": 50
+      },
+      { 
+        "address": "BPsjnkbqMf4Lccow55VUKunrmMELHMNvFUDMLTN1x1G",
+        "share": 50
+      } 
       
     ]
-  }, 
-  "compiler": "HashLips Art Engine"
+  }
 }
 
 

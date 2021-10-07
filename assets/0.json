@@ -1,10 +1,10 @@
-{
-  "dna": "b1463c4c28271e396c1a7afa5731b4e4e01293ac",
-  "name": "#100",
-  "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/100.png",
-  "edition": 100,
-  "date": 1632830257902,
+{ 
+  "name": "#1",
+  "symbol": "ASC", 
+  "description": "Alien Sports Club",
+  "seller_fee_basis_points": 500,
+  "image": "image.png",
+  "external_url": "https://www.asc.com", 
   "attributes": [
     {
       "trait_type": "Background",
@@ -39,11 +39,20 @@
       "value": "Cricket Bat"
     }
   ],
-"properties": {
-    "creators": [
-      "5tL3AA91cXKDqF2AEDtj5EEZZ7asoQM8s7f6sj9UD32dQvyisK4M2MzCKy8",
-      "985upsetFwzuJnASY2EwFJMppxoznSdsg3aBoZ2f11MswZqbvmjiuM4mFnU"
-    ]
+  "collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
   },
-  "compiler": "HashLips Art Engine"
+  "properties": {
+  "creators": [
+      { 
+        "address": "FaM3xBSsXY8tTT3BEZhAsxUQ8Tn7svcawWGkVdBfDJuH",
+        "share": 50
+      },
+      { 
+        "address": "BPsjnkbqMf4Lccow55VUKunrmMELHMNvFUDMLTN1x1G",
+        "share": 50
+      }  
+    ]
+  }
 }

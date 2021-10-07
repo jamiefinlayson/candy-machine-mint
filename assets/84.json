@@ -1,8 +1,7 @@
 {
-  "dna": "c1456864c1a48dac8d75ee6e80af4f012c416921",
   "name": "#84",
-  "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/84.png",
+  "symbol": "ASC",
+"description": "Alien Sports Club",  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/84.png",
   "edition": 84,
   "date": 1632830245643,
   "attributes": [
@@ -39,11 +38,20 @@
       "value": "Basketball"
     }
   ],
+"collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
+ },
 "properties": {
-    "creators": [
-      "5tL3AA91cXKDqF2AEDtj5EEZZ7asoQM8s7f6sj9UD32dQvyisK4M2MzCKy8",
-      "985upsetFwzuJnASY2EwFJMppxoznSdsg3aBoZ2f11MswZqbvmjiuM4mFnU"
+"creators": [
+      { 
+        "address": "FaM3xBSsXY8tTT3BEZhAsxUQ8Tn7svcawWGkVdBfDJuH",
+        "share": 50
+      },
+      { 
+        "address": "BPsjnkbqMf4Lccow55VUKunrmMELHMNvFUDMLTN1x1G",
+        "share": 50
+      }
     ]
-  },
-  "compiler": "HashLips Art Engine"
+  }
 }

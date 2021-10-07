@@ -1,0 +1,72 @@
+{ 
+  "name": "#1",
+  "symbol": "ASC",
+  "symbol": "ASC",
+"description": "Alien Sports Club",
+  "seller_fee_basis_points": 500,
+  "image": "image.png",
+  "external_url": "https://www.asc.com", 
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Referee"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "ETH Chain"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Pearly Whites"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Golf Hat"
+    },
+    {
+      "trait_type": "Item",
+      "value": "Boxing Glove"
+    }
+  ],
+  "collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
+ },
+  "properties": {
+    "files": [ 
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
+ },
+"properties": {
+"creators": [
+      { 
+        "address": "FaM3xBSsXY8tTT3BEZhAsxUQ8Tn7svcawWGkVdBfDJuH",
+        "share": 50
+      },
+      { 
+        "address": "BPsjnkbqMf4Lccow55VUKunrmMELHMNvFUDMLTN1x1G",
+        "share": 50
+      }  
+    ]
+  }
+}
+
+

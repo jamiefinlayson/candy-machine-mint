@@ -1,0 +1,60 @@
+#### Currently 05 - search and replace! ####
+
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts help upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets --env devnet --keypair /Users/pro/.config/solana/devnet05.json -c temp05
+
+# Generate public key --keypair /Users/pro/.config/solana/devnet05.json
+solana-keygen new --outfile ~/.config/solana/devnet05.json
+
+# Set Keypair
+solana config set --keypair /Users/pro/.config/solana/devnet05.json
+
+# Make devnet your default solana url:
+solana config set --url https://api.devnet.solana.com
+
+# Get solana config
+solana config get
+
+# Upload
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets --keypair /Users/pro/.config/solana/devnet05.json -c temp05 
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets -k /Users/pro/.config/solana/devnet05.json -c temp05
+#end devnet
+
+# Create Candy Machine
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine
+## Key & temp05
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine --keypair /Users/pro/.config/solana/devnet05.json -c temp05
+## Price, Key & temp05
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine -k /Users/pro/.config/solana/devnet05.json -e devnet -p 1
+
+# Verify
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts verify -k /Users/pro/.config/solana/devnet05.json -c temp05
+
+# Mint one token
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts mint_one_token -k /Users/pro/.config/solana/devnet05.json -c temp05
+
+# Update Candy Machine
+ts-node ~/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts \
+    update_candy_machine \
+    --env devnet \
+    --keypair ~/.config/solana/devnet.json \
+    --price 1 \
+    --date "26 Sep 2051 00:12:00 GMT"
+
+## Update Candy Machine - and set time
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts update_candy_machine -k /Users/pro/.config/solana/devnet05.json -c temp05 -d "05 Dec 1995 00:12:00 GMT"
+-d "05 Dec 1995 00:12:00 GMT"
+
+# Transfer - how to switch accounts again?
+solana transfer 4MALzPhHba7Gf52zUJ9yME9YwQFqyFwUJXS7vp2QfnbZ 3 
+
+# Open file for editing
+code /Users/pro/.config/solana/cli/config.yml
+
+ 
+Wrote new keypair to /Users/pro/.config/solana/devnet05.json
+===========================================================================
+pubkey: J9xw8fXxTX3New2vC67JUUkYAKYHtGPMNK3hw8uvddRk
+===========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+clock roof orange castle orient exist demise tower common odor perfect hawk
+===========================================================================

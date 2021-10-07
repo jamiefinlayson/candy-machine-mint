@@ -1,8 +1,7 @@
 {
-  "dna": "10aab8ec3d06f6d099cc365b093c0fb557f9bf99",
   "name": "#70",
-  "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/70.png",
+  "symbol": "ASC",
+"description": "Alien Sports Club",  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/70.png",
   "edition": 70,
   "date": 1632830234644,
   "attributes": [
@@ -39,11 +38,20 @@
       "value": "Golf Club"
     }
   ],
+"collection": {
+    "name": "Alien Sports Club",
+    "family": "Alien Metaverse"
+ },
 "properties": {
-    "creators": [
-      "5tL3AA91cXKDqF2AEDtj5EEZZ7asoQM8s7f6sj9UD32dQvyisK4M2MzCKy8",
-      "985upsetFwzuJnASY2EwFJMppxoznSdsg3aBoZ2f11MswZqbvmjiuM4mFnU"
+"creators": [
+      { 
+        "address": "FaM3xBSsXY8tTT3BEZhAsxUQ8Tn7svcawWGkVdBfDJuH",
+        "share": 50
+      },
+      { 
+        "address": "BPsjnkbqMf4Lccow55VUKunrmMELHMNvFUDMLTN1x1G",
+        "share": 50
+      }
     ]
-  },
-  "compiler": "HashLips Art Engine"
+  }
 }

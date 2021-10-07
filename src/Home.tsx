@@ -132,6 +132,8 @@ const Home = (props: HomeProps) => {
     (async () => {
       if (!wallet) return;
 
+      console.log("candyMachineId", props.candyMachineId);
+
       const { candyMachine, goLiveDate, itemsRemaining } =
         await getCandyMachineState(
           wallet as anchor.Wallet,
@@ -147,6 +149,7 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      TEST
       {wallet && (
         <p>Address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
@@ -154,7 +157,7 @@ const Home = (props: HomeProps) => {
       {wallet && (
         <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
       )}
-
+      
       <MintContainer>
         {!wallet ? (
           <ConnectButton>Connect Wallet</ConnectButton>
