@@ -1,6 +1,10 @@
 #### Currently 05 - search and replace! ####
 
+Devnet:
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts help upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets --env devnet --keypair /Users/pro/.config/solana/devnet05.json -c temp05
+
+Mainet?:
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets --env mainnet --keypair /Users/pro/.config/solana/devnet05.json -c temp05
 
 # Generate public key --keypair /Users/pro/.config/solana/devnet05.json
 solana-keygen new --outfile ~/.config/solana/devnet05.json
@@ -9,22 +13,26 @@ solana-keygen new --outfile ~/.config/solana/devnet05.json
 solana config set --keypair /Users/pro/.config/solana/devnet05.json
 
 # Make devnet your default solana url:
+Devnet:
 solana config set --url https://api.devnet.solana.com
+Mainnet:
+solana config set --url https://solana-api.projectserum.com
 
 # Get solana config
 solana config get
 
 # Upload
+
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets --keypair /Users/pro/.config/solana/devnet05.json -c temp05 
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts upload /Users/pro/Sites/exiled-apes-candy/candy-machine-mint/assets -k /Users/pro/.config/solana/devnet05.json -c temp05
-#end devnet
+
 
 # Create Candy Machine
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine
 ## Key & temp05
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine --keypair /Users/pro/.config/solana/devnet05.json -c temp05
 ## Price, Key & temp05
-ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine -k /Users/pro/.config/solana/devnet05.json -e devnet -p 1
+ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts create_candy_machine -k /Users/pro/.config/solana/devnet05.json -e -c temp05 -p 1
 
 # Verify
 ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts verify -k /Users/pro/.config/solana/devnet05.json -c temp05
@@ -36,7 +44,7 @@ ts-node /Users/pro/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-
 ts-node ~/Sites/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts \
     update_candy_machine \
     --env devnet \
-    --keypair ~/.config/solana/devnet.json \
+    --keypair ~/.config/solana/devnet05.json \
     --price 1 \
     --date "26 Sep 2051 00:12:00 GMT"
 

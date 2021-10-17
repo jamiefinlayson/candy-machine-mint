@@ -6,10 +6,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #303030;
+  background-image: url("https://guttercatgang.com/wp-content/uploads/2021/09/Gutter_Cat_Court-scaled.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
   color: #FFFFFF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  padding: 30px;
+} 
+.character {
+  background-color: rgba(0, 0 ,0, 0.7) !important;
+  padding: 20px;
+}
+.character img {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.character p { 
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+}
+.buttonInfo {
+  margin: 0 auto !important;
+  display: block !important;
 }

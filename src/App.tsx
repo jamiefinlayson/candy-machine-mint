@@ -50,6 +50,11 @@ const theme = createTheme({
         type: 'dark',
     },
     overrides: {
+        MuiCard: {
+          root: {
+            background: 'rgba(15, 15, 15, 0.8)'
+          }
+        },
         MuiButtonBase: {
             root: {
                 justifyContent: 'flex-start',
@@ -58,7 +63,7 @@ const theme = createTheme({
         MuiButton: {
             root: {
                 textTransform: undefined,
-                padding: '12px 16px',
+                padding: '12px 16px', 
             },
             startIcon: {
                 marginRight: 8,
@@ -68,6 +73,7 @@ const theme = createTheme({
             },
         },
     },
+
 });
 
 const App = () => {

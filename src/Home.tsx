@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Countdown from "react-countdown";
+import { Card, Grid } from '@mui/material';
+
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 
@@ -149,15 +151,15 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      TEST
+      <p><strong>Welcome!</strong></p>
       {wallet && (
-        <p>Address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
+        <p>Wallet address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
 
       {wallet && (
-        <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+        <p>Wallet balance: {(balance || 0).toLocaleString()} SOL</p>
       )}
-      
+        
       <MintContainer>
         {!wallet ? (
           <ConnectButton>Connect Wallet</ConnectButton>
@@ -187,6 +189,45 @@ const Home = (props: HomeProps) => {
         )}
       </MintContainer>
 
+      <br></br><br></br>
+      <Grid container spacing={2}>
+        <Grid item xs={3}>
+          <Card className="character">
+            <div>
+              <img src="https://guttercatgang.com/wp-content/uploads/2021/10/cat-species.png"></img>
+              <p>Special cat text</p>
+            </div>
+            <ConnectButton className="buttonInfo">INFO</ConnectButton>
+          </Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card className="character">
+            <div>
+              <img src="https://guttercatgang.com/wp-content/uploads/2021/10/rat-species.png"></img>
+              <p>Special cat text</p>
+            </div>
+            <ConnectButton className="buttonInfo">INFO</ConnectButton>
+          </Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card className="character">
+            <div>
+              <img src="https://guttercatgang.com/wp-content/uploads/2021/10/pidgeon-species.png"></img>
+              <p>Special cat text</p>
+            </div>
+            <ConnectButton className="buttonInfo">INFO</ConnectButton>
+          </Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card className="character">
+            <div>
+              <img src="https://guttercatgang.com/wp-content/uploads/2021/10/dog-species.png"></img>
+              <p>Special cat text</p>
+            </div>
+            <ConnectButton className="buttonInfo">INFO</ConnectButton>
+          </Card>
+        </Grid>
+      </Grid>
       <Snackbar
         open={alertState.open}
         autoHideDuration={6000}
